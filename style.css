@@ -13,15 +13,14 @@ body{
    justify-content:center;
 }
 
-button{
-   padding:50px 20px;
-   width:200px;
+kbd{
+   padding:10px;
+   width:100px;
    margin-left:20px;
    font-weight:bolder;
-   border:none;
-   border-radius:10px;
    cursor:pointer;
-   /*outline:solid 4px red;*/
+   background-color:white;
+   border:solid 5px black;
 }
 
 span{
