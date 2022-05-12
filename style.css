@@ -13,6 +13,10 @@ body{
    justify-content:center;
 }
 
+
+/*
+button styling.
+*/
 kbd{
    padding:10px;
    width:100px;
@@ -24,12 +28,17 @@ kbd{
    border:solid 5px black;
 }
 
+/*
+showing which button to press.
+*/
 span{
    font-weight:bolder;
    text-shadow: 1px 1px 1.5px black;
 }
 
-
+/*
+just a little hover easter-egg
+*/
 kbd:hover {
    animation: shake 0.4s;
    animation-iteration-count: infinite;

@@ -1,3 +1,6 @@
+/*
+Getting the drum soundbites.
+*/
 const clap = new Audio("Sounds/clap.wav");
 const kick = new Audio("Sounds/kick.wav")
 const hihat = new Audio("Sounds/hihat.wav")
@@ -7,7 +10,10 @@ const snare = new Audio("Sounds/snare.wav")
 const tink = new Audio("Sounds/tink.wav")
 const tom = new Audio("Sounds/tom.wav")
 
-
+/*
+addEventListener that responds to keydown changing the background color
+and making the buttons move.
+*/
 document.body.addEventListener("keydown", (e) =>{
    switch (e.key){
       case 'c':
@@ -62,6 +68,11 @@ document.body.addEventListener("keydown", (e) =>{
          break;
    }
 })
+
+/*
+addEventListener that responds to keyup, basically a reverse of the keydown above,
+reverting the code back to "start". Should probably have made a function.
+*/
 document.body.addEventListener("keyup", (e) =>{
    switch (e.key){
       case 'c':
