@@ -1,0 +1,30 @@
+body{
+   margin:0;
+   padding:0;
+   text-align:center;
+   margin-top:40vh;
+   background-image:url("trommer.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+
+#container{
+   display:flex;
+   justify-content:center;
+}
+
+button{
+   padding:50px 20px;
+   width:200px;
+   margin-left:20px;
+   font-weight:bolder;
+   border:none;
+   border-radius:10px;
+   cursor:pointer;
+   /*outline:solid 4px red;*/
+}
+
+span{
+   color:black;
+   font-weight:bolder;
+}
