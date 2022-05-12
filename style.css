@@ -25,8 +25,8 @@ kbd{
 }
 
 span{
-   color:black;
    font-weight:bolder;
+   text-shadow: 1px 1px 1.5px black;
 }
 
 
